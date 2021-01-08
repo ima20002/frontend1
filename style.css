@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Nunito');
+body {
+  background-color: #f7f5f1;
+  font-family: 'Nunito', 'Raleway', cursive;
+}
+
+#content { 
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.1em;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;    
+  background-color: #3578a8;
+  color: #ffffff;
+  height: 50px;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.asspo{
+  grid-column: 1 / 4; 
+  grid-row: 1;
+  padding-left: 50px;
+  
+}
+.main img {
+  grid-column: 4 / 5; 
+  grid-row: 1 / 2;
+  margin-bottom: 10px;
+  padding-right: 50px;
+}
+.assignment {
+  grid-column: 1 / 4; 
+  grid-row: 2;
+  margin-top: -260px;
+  padding-left: 80px;
+}
+
+
+.footer {
+  background-color: #3578a8;
+  color: #ffffff;
+  text-align: center;
+}
+
+.time {
+  display: inline;
+}
