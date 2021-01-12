@@ -31,19 +31,26 @@ h2 {
   grid-column: 1 / 4; 
   grid-row: 1;
   padding-left: 50px;
+  margin-bottom: -200px;
+  margin-right: -100px;
   
 }
 .main img {
-  grid-column: 4 / 5; 
+  grid-column: 3 / 5; 
   grid-row: 1 / 2;
   margin-bottom: 10px;
-  padding-right: 50px;
+  padding-right: 10px;
+  margin-left: 100px;
+  width: 60%;
+  height: 80%;
 }
+
 .assignment {
   grid-column: 1 / 4; 
   grid-row: 2;
-  margin-top: -260px;
+  margin-top: -360px;
   padding-left: 80px;
+  margin-right: -100px;
 }
 
 
