@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu|Nunito');
 body {
   background-color: #f7f5f1;
-  font-family: 'Nunito', 'Raleway', cursive;
+  font-family: 'Nunito', sans-serif;
 }
 
 #content { 
@@ -10,17 +9,20 @@ body {
   padding: 1.1em;
 }
 
-h1 {
+header {
   text-align: center;
   font-weight: bold;    
   background-color: #3578a8;
   color: #ffffff;
-  height: 50px;
+  height: 80px;
+  border-radius: 8px;
+  padding: 1px;
 }
 
 h2 {
   text-decoration: underline;
   text-decoration-style: double;
+  padding: 12px;
 }
 
 .main {
@@ -31,26 +33,26 @@ h2 {
   grid-column: 1 / 4; 
   grid-row: 1;
   padding-left: 50px;
-  margin-bottom: -200px;
   margin-right: -100px;
   
 }
 .main img {
   grid-column: 3 / 5; 
-  grid-row: 1 / 2;
+  grid-row: 1 / 3;
   margin-bottom: 10px;
   padding-right: 10px;
   margin-left: 100px;
+  margin-top: 20px;
   width: 60%;
-  height: 80%;
+  height: 90%;
 }
 
 .assignment {
   grid-column: 1 / 4; 
-  grid-row: 2;
-  margin-top: -360px;
+  grid-row: 2 / 3;
   padding-left: 80px;
   margin-right: -100px;
+  margin-top: -30px;
 }
 
 
@@ -58,6 +60,8 @@ h2 {
   background-color: #3578a8;
   color: #ffffff;
   text-align: center;
+  border-radius: 8px;
+  padding: 11px;
 }
 
 .time {
