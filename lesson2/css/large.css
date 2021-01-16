@@ -65,9 +65,7 @@
   }
 
   .home-grid img {
-    grid-column: ; 
     grid-row: 2/3;
-    margin-left: px;
     margin-right: 10px;
     width:100%;
     height:auto;
