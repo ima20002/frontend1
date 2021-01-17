@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+
   body {
     background-color: #f7f5f1;
     font-family: 'Nunito', sans-serif;
@@ -91,4 +91,3 @@
   .footer_p{
     text-align: center;
   }
-}
