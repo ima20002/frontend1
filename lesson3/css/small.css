@@ -1,0 +1,101 @@
+
+body {
+background-color: #f7f5f1;
+font-family: 'Nunito', sans-serif;
+}
+
+header {
+text-align: center;
+font-weight: bold;    
+background-color: #3578a8;
+color: #ffffff;
+font-family: 'Raleway';
+font-size: 0.8em;
+margin: auto;
+border-radius: 8px;
+padding: 1px;
+}
+
+nav {
+color: #4d495a;
+font-size: 1em;
+background-color: #b4cecc;
+
+border-radius: 8px;
+/*text-align: center;*/
+margin-top: 20px;
+}
+
+nav a:hover { 
+color: #ffffff; 
+}
+
+nav ul {
+list-style: none; 
+padding: 0;
+/*text-align: center;*/
+}
+
+nav ul li a {
+display: block;
+text-decoration: none;
+text-align: center;
+margin: 6px;
+}
+
+#content { 
+max-width: 960px;
+margin: 0 auto;
+padding: 1.1em;
+}
+
+h2 {
+text-decoration-style: double;
+padding: 12px;
+color: #020024;
+}
+
+h3 {
+padding: 12px;
+margin-bottom: -10px;
+}
+
+p {
+padding: 10px;
+margin: 2px;
+text-align: left;
+}
+
+.home-grid {
+display: grid;
+grid-template-columns: 1fr;
+padding: 30px;
+}
+
+.home-grid img {
+margin-right: 10px;
+width: 50%;
+height:auto;
+}
+
+.color-grid {
+display: grid;
+grid-template-columns: 1fr;
+padding: 30px;
+}
+.color-grid img {
+margin-right: 10px;
+width: 100%;
+height:auto;
+}
+
+.footer {
+background-color: #3578a8;
+color: #ffffff;
+text-align: center;
+border-radius: 8px;
+padding: 11px;
+}
+.footer_p{
+text-align: center;
+}

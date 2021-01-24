@@ -1,5 +1,5 @@
 @media screen and (min-width: 961px) {
-
+  
   .home-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -28,4 +28,5 @@
     background-color: #ffffff;
     border-radius: 6px;
   }
+  
 }
