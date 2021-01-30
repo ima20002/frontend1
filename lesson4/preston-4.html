@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>My Wether</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <div>
+            <header>
+                <picture><img src="images/logo.jpg" alt="My wether logo"></picture>
+                <secion class="headings">
+                    <h1>My Wether</h1>
+                    <div class="m">Live everyday with the wether</div>
+                </secion>
+            </header>
+            <nav> 
+                <button onclick="toggleMenu()">&#9776; Menu</button>
+                <ul id="navMenu" class="hide">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Preston</a></li>
+                    <li><a href="">Soda Springs</a></li>
+                    <li><a href="">Fish Haven</a></li>
+                    <li><a href="">Storm Center</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+            </nav>   
+            <main>
+                <div class="home-grid">
+                    <div class="contentbox">Hero w/ weather summary</div>
+                    <div class="contentbox">5 Day Forecast</div>
+                    <div class="contentbox">Article</div>
+                    <div class="contentbox">Contact Information</div>
+                </div>
+            </main>
+            <footer>
+              <p>&copy;2021 My Wether | Hikaru | <span id="currentTime"></span></p> 
+            </footer>
+            <script src="js/time.js"></script>
+            <script src="js/nav.js"></script>
+        </body>
+        </div>
+    </body>
+</html> 

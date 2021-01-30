@@ -1,0 +1,104 @@
+body {
+    background-color: #f7f5f1;
+    font-size: 16px;
+    font-family: 'Raleway', 'Nunito', sans-serif;
+
+    }
+
+header {
+    background-color: #abd8d5;
+    padding: 5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 2.2rem;
+    margin: 0 0 0 17px;
+    padding-top: 5px;
+    color: #324b4a;
+}
+
+.m {
+    font-style: "Nunito";
+    letter-spacing:  1pt;
+    color: forestgreen;
+    margin-left: 20px;
+    font-size: .8rem;
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #324b4a;
+    display: flex;
+    flex-direction: column;
+}
+
+nav button {
+    background-color: transparent;
+    font-style: "Nunito";
+    padding: 7px 0;
+    border: none;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+}
+nav ul.hide {
+    display: none;
+}
+main {
+    display: block;
+    margin: 5em 0;
+}
+
+.contentbox {
+    display: block;
+    max-width: 700px;
+    margin: 10px auto;
+    border: 1px dashed #ffffff;
+    padding: 15px;
+    background-color: rgb(219, 219, 219);
+    color: #444;
+    font-style: "Nunito";
+    text-align: center;
+}
+
+footer {
+    background-color: #abd8d5;
+    padding: 5px 0;
+    margin-left: 5px;
+    text-align: center;
+}
