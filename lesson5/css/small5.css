@@ -1,0 +1,201 @@
+body {
+    background-color: #f7f5f1;
+    font-size: 16px;
+    font-family: 'Raleway', 'Nunito', sans-serif;
+
+    }
+#message {
+    background-color:rgb(192, 124, 166);
+    text-align: center;
+    color: #222018;
+    height: 60px;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.showme {
+    display: block;
+}
+.hideme {
+    display: none;
+}
+
+header {
+    background-color: #abd8d5;
+    padding: 5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 2.2rem;
+    margin: 0 0 0 17px;
+    padding-top: 5px;
+    color: #324b4a;
+}
+
+.m {
+    font-style: "Nunito";
+    letter-spacing:  1pt;
+    color: forestgreen;
+    margin-left: 20px;
+    font-size: .8rem;
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #324b4a;
+    display: flex;
+    flex-direction: column;
+}
+
+nav button {
+    background-color: transparent;
+    font-style: "Nunito";
+    padding: 7px 0;
+    border: none;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+}
+nav ul.hide {
+    display: none;
+}
+main {
+    display: block;
+    margin: 0;
+}
+footer {
+    background-color: #abd8d5;
+    padding: 5px 0;
+    margin-left: 5px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav ul li a.active {
+    background-color: #36918e;
+}
+
+
+
+.hero-ph {
+    position: relative;
+    margin: 10px auto;
+    
+}
+.hero-ph img {
+    max-width: 100%;
+    height: auto;
+}
+.weatherSum {
+    position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#d0c5d1, #8a668f);
+	border: 1px solid #000;
+	padding: 0.7rem;
+    padding-top: 2px;
+	box-shadow: 0 0 30px #111;
+	opacity: .9;
+}
+.weatherSum h4 {
+    color: #960441;
+    text-decoration: underline 3px;
+}
+.weatherSum p {
+    font-size: 0.8rem;
+    margin: 3px;
+    font-family: "Nunito";
+}
+
+
+
+.fivedays {
+    display: none;
+}
+
+
+
+
+.article {
+    margin: 40px auto;
+    background-color: #A2A7BF;
+    border: 3px solid #dddada;
+    padding: 20px;
+}
+.article img {
+    padding: auto;
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+}
+.article h3 {
+    text-align: center;
+}
+#pone {
+    text-align: center;
+}
+.article p {
+    margin: 10px;
+    font-family: "Nunito";
+}
+
+
+
+.contactInfo {
+    margin: 40px auto;
+    background-color: #dad4c9;
+    border: 3px solid #dddada;
+    padding: 20px;
+}
+.map {
+    display: none;
+}
+.contactInfo h4 {
+    text-align: center;
+}
+.contactInfo p {
+    text-align: center;
+}
+#snsdiv {
+    text-align: center; 
+    margin: 8px;
+    margin-top: 20px;
+}
