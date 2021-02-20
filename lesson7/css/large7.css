@@ -22,6 +22,13 @@
     .article img {
       height: 280px;
       width: 380px;
-  }
+    }
+    /*--------------gallery--------------*/
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .gallery figure:hover {
+      box-shadow: 12px 12px 30px rgb(27, 26, 26);
+    }
 
   }

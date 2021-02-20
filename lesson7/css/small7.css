@@ -102,6 +102,35 @@ main {
 main figure.myphoto img {
     width: 100%;
 }
+/*-----------------------------gallery----------------------------*/
+.gallery {
+    max-width: 90%;
+    margin: 15px auto;
+}
+
+.gallery figure {
+    box-shadow: 4px 4px 10px rgb(131,131,131);
+    border-radius: 6px;
+    background-color: #A2A7BF;
+    margin: 20px auto;
+    display: block;
+}
+
+.gallery figcaption {
+    padding: 10px;
+    margin-top: -3px;
+}
+
+.gallery img[data-src] {
+    filter: blur(0.2em);
+}
+
+.gallery img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
 /*-----------------------------footer----------------------------*/
 footer {
     background-color: #abd8d5;
