@@ -1,0 +1,39 @@
+@media screen and (min-width: 64em) {
+
+    header img {
+        width: 120px;
+      }
+    
+    .headings h1 {
+        font-size: 4rem;
+    }
+    
+    .m {
+        letter-spacing: 2pt;
+        font-size: 1rem;
+    }
+
+
+
+    .weatherSum {
+      top: 120px;
+    }
+
+    .article img {
+      height: 280px;
+      width: 380px;
+    }
+    /*--------------gallery--------------*/
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .gallery figure:hover {
+      box-shadow: 12px 12px 30px rgb(27, 26, 26);
+    }
+
+    /*-----------------storm-----------------*/
+    form {
+      width: 40%;
+  }
+
+  }

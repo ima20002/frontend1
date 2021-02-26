@@ -1,0 +1,309 @@
+body {
+    background-color: #f7f5f1;
+    font-size: 16px;
+    font-family: 'Raleway', 'Nunito', sans-serif;
+
+    }
+#message {
+    background-color:rgb(192, 124, 166);
+    text-align: center;
+    color: #222018;
+    height: 60px;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.showme {
+    display: block;
+}
+.hideme {
+    display: none;
+}
+
+header {
+    background-color: #abd8d5;
+    padding: 5px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 2.2rem;
+    margin: 0 0 0 17px;
+    padding-top: 5px;
+    color: #324b4a;
+}
+
+.m {
+    font-family: "Nunito";
+    letter-spacing:  1pt;
+    color: forestgreen;
+    margin-left: 20px;
+    font-size: .8rem;
+}
+/*-----------------------------nav bars----------------------------*/
+nav{
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #324b4a;
+    display: flex;
+    flex-direction: column;
+}
+
+nav button {
+    background-color: transparent;
+    font-family: "Nunito";
+    padding: 7px 0;
+    border: none;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+}
+nav ul.hide {
+    display: none;
+}
+/*-----------------------------main----------------------------*/
+main {
+    display: block;
+    margin: 0;
+}
+main figure.myphoto img {
+    width: 100%;
+}
+/*-----------------------------gallery----------------------------*/
+.gallery {
+    max-width: 90%;
+    margin: 15px auto;
+}
+
+.gallery figure {
+    box-shadow: 4px 4px 10px rgb(131,131,131);
+    border-radius: 6px;
+    background-color: #A2A7BF;
+    margin: 20px auto;
+    display: block;
+}
+
+.gallery figcaption {
+    padding: 10px;
+    margin-top: -3px;
+}
+
+.gallery img[data-src] {
+    filter: blur(0.2em);
+}
+
+.gallery img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+/*-----------------------------storm----------------------------*/
+form {
+    width: 90%;
+    margin: auto;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #324b4a;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #324b4a;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #324b4a;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #324b4a;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .60rem .4rem;
+    color: #555;
+}
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #815a86;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: .75rem .8rem;
+    margin: 10px auto;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: rgb(216, 41, 123) solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: rgb(48, 131, 110) solid 6px;
+}
+
+.stormtitle {
+    text-align: center;
+}
+.thanksT {
+    text-align: center;
+    margin: 30px 10px;
+}
+
+.thanksP {
+    text-align: center;
+    margin: 50px 10px;
+}
+/*-----------------------------footer----------------------------*/
+footer {
+    background-color: #abd8d5;
+    padding: 5px 0;
+    margin-left: 5px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav ul li a.active {
+    background-color: #36918e;
+}
+
+
+/*-------------------------wetherSummary-------------------------*/
+.hero-ph {
+    position: relative;
+    margin: 10px auto;
+    
+}
+
+.weatherSum {
+    position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#d0c5d1, #8a668f);
+	border: 1px solid #000;
+	padding: 0.7rem;
+    padding-top: 2px;
+	box-shadow: 0 0 30px #111;
+	opacity: .9;
+}
+.weatherSum h4 {
+    color: #960441;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+.weatherSum p {
+    font-size: 0.8rem;
+    margin: 3px;
+    font-family: "Nunito";
+}
+
+
+/*----------------------------five days forecast----------------------------*/
+.fivedays {
+    display: none;
+}
+
+
+
+/*-----------------------------article----------------------------*/
+.article {
+    margin: 40px auto;
+    background-color: #A2A7BF;
+    border: 3px solid #dddada;
+    padding: 20px;
+}
+.article img {
+    display: block;
+    margin: 10px 3%;
+    max-width: 94%;
+    height: auto;
+}
+.article h3 {
+    text-align: center;
+}
+#pone {
+    text-align: center;
+}
+.article p {
+    margin: 10px;
+    font-family: "Nunito";
+}
+
+
+/*-----------------------------contact information----------------------------*/
+.contactInfo {
+    margin: 40px auto;
+    background-color: #dad4c9;
+    border: 3px solid #dddada;
+    padding: 20px;
+}
+.map {
+    display: none;
+}
+.contactInfo h4 {
+    text-align: center;
+}
+.contactInfo p {
+    text-align: center;
+}
+#snsdiv {
+    text-align: center; 
+    margin: 8px;
+    margin-top: 20px;
+}

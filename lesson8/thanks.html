@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>My Wether</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small8.css">
+        <link rel="stylesheet" href="css/medium8.css">
+        <link rel="stylesheet" href="css/large8.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <div>
+            <div id="message">
+                <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+            </div>
+            <header>
+                <picture><img src="images/logo.jpg" alt="My wether logo"></picture>
+                <div class="headings">
+                    <h1>My Wether</h1>
+                    <div class="m">Live everyday with the wether</div>
+                </div>
+            </header>
+            <nav> 
+                <button onclick="toggleMenu()">&#9776; Menu</button>
+                <ul id="navMenu" class="hide">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Preston</a></li>
+                    <li><a href="">Soda Springs</a></li>
+                    <li><a href="">Fish Haven</a></li>
+                    <li><a class="active" href="">Storm Center</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+            </nav>   
+            <main>
+                <h2 class="thanksT">The report has been sent successfully!</h2>
+                <p class="thanksP">Thank you for reporting on storms and unusual weather events at your location.</p>
+            </main>
+            <footer>
+              <p>&copy;2021 My Wether | Hikaru | <span id="currentTime"></span></p> 
+            </footer>
+            <script src="js/time6.js"></script>
+            <script src="js/nav6.js"></script>
+            <script src="js/message6.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Raleway', 'Nunito'] } });</script>
+            <script src="js/windchill.js"></script>
+            <script src="js/imagehandling.js"></script>
+            <script src="js/rating.js"></script>
+        </div>
+    </body>
+</html> 

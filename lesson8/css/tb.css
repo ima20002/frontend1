@@ -2,6 +2,7 @@ body {
     width: 440px;
     height: 1000px;
     font-family: "Ubuntu", sans-serif;
+    margin: auto;
 }
 
 table {
