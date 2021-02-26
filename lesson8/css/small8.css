@@ -211,7 +211,7 @@ form label.top input:required:valid {
 footer {
     background-color: #abd8d5;
     padding: 5px 0;
-    margin-left: 5px;
+    margin: auto;
     text-align: center;
 }
 
