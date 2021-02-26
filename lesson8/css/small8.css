@@ -195,6 +195,10 @@ form label.top input:required:valid {
     border-left: rgb(48, 131, 110) solid 6px;
 }
 
+form label.top textarea {
+    width: 90%;
+}
+
 .stormtitle {
     text-align: center;
 }
