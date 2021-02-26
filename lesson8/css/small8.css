@@ -157,7 +157,7 @@ form label.top, form div {
     font-size: .8rem;
 }
 
-form label.top input, form label.top select {
+form label.top input, form label.top select, form label.top option {
     display: block;
     font-size: 1rem;
     border: solid 1px #324b4a;

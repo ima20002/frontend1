@@ -48,17 +48,18 @@
                         <legend>Storm Information</legend>
                         <label class="top">Storm Date <input type="date" name="stormdate"></label>
                         <br>
-                        <label class="top" for="stormType">Storm type </label>
+                        <label class="top" for="stormType">Storm Type
                             <input list="stormtype" id="stormType" name="stormtype">
-                            <datalist id="stormtype">
-                                <option value="Flash Flood">
-                                <option value="Hail">
-                                <option value="Hurricane">
-                                <option value="Thunderstorm">
-                                <option value="Tornado">                  
-                            </datalist>
+                                <datalist id="stormtype">
+                                    <option>Flash Flood</option>
+                                    <option>Hail</option>
+                                    <option>Hurricane</option>
+                                    <option>Thunderstorm</option>
+                                    <option>Tornado</option>                
+                                </datalist>
+                        </label>
                         <br>
-                        <label class="top" for="stormSeverity">Storm Severity</label>
+                        <label class="top" for="stormSeverity">Storm Severity (1 to 10 )</label>
                             <input type="range" id="stormSeverity" value="5" min="1" max="10" list="stormserv" name="stormseverity" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                             <span id="stormvalue">5</span>
                             <datalist id="stormserv">
@@ -81,8 +82,9 @@
                                 <option value="Soda Spring">Soda Spring</option>
                                 <option value="Fish Haven">Fish Haven</option>
                             </select>
+                        </label>
                         <br>
-                        </label class="top">Danger Level
+                        <label class="top">Danger Level</label>
                             <div class="selection">
                                 <label class="sbs"><input type="radio" name="level" checked> yes</label>
                             </div>
@@ -92,7 +94,7 @@
                             <div class="selection">
                                 <label class="sbs"><input type="radio" name="level"> no</label>
                             </div>
-                        </fieldset>
+                    </fieldset>
                     </fieldset>
                     <fieldset>
                         <legend>Additional information or Comments</legend>
