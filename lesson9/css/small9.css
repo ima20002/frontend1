@@ -322,7 +322,7 @@ nav ul li a.active {
 
 .cards {
     display: grid;
-    grid-gap: 5px;
+    grid-gap: auto;
     margin: 40px auto;
     width: 100%;
     border: 3px solid #dddada;
