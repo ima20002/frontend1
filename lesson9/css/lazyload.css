@@ -2,7 +2,9 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
-
+h1 {
+    text-align: center;
+}
 
 img[data-src] {
     filter: blur(0.2em);
