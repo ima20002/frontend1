@@ -231,8 +231,13 @@ nav ul li a.active {
 /*-------------------------wetherSummary-------------------------*/
 .hero-ph {
     position: relative;
-    margin: 10px auto;
-    
+    margin: 10px;    
+}
+
+.hero-ph img {
+    display: block;
+    margin: auto;
+    width: 90%;
 }
 
 .weatherSum {
@@ -271,6 +276,7 @@ nav ul li a.active {
     background-color: #A2A7BF;
     border: 3px solid #dddada;
     padding: 20px;
+    width: 90%;
 }
 .article img {
     display: block;
@@ -296,6 +302,7 @@ nav ul li a.active {
     background-color: #dad4c9;
     border: 3px solid #dddada;
     padding: 20px;
+    width: 90%;
 }
 .map {
     display: none;
@@ -311,3 +318,37 @@ nav ul li a.active {
     margin: 8px;
     margin-top: 20px;
 }
+/*----------------------------------index-----------------------------------------*/
+
+section {
+    text-align: center;
+    width: 90%;
+    margin: 20px;
+    background-color: #dddada;
+}
+
+.cards {
+    display: grid;
+    grid-gap: 10px;
+    margin: auto;
+    width: 90%;
+    border: 3px solid #dddada;
+    background-color: #dad4c9;
+    padding: 15px;
+}
+
+.textContainer {
+    text-align: center;
+    padding: 15px;
+}
+
+.imgContainer {
+    padding: 15px;
+}
+
+.imgContainer img {
+    width: 100%;
+    border-radius: 1.5%;
+    box-shadow: 10px 10px 10px gray;
+}
+

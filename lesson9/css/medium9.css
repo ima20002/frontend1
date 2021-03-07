@@ -115,4 +115,15 @@
     form {
         width: 70%;
     }
+    /*-----------------index------------------*/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px;
+    }
+    
+    section {
+        width: 90%;
+        margin: 0 auto;
+    }
   }
