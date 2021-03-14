@@ -26,8 +26,8 @@
             <nav> 
                 <button onclick="toggleMenu()">&#9776; Menu</button>
                 <ul id="navMenu" class="hide">
-                    <li><a class="active" href="">Home</a></li>
-                    <li><a href="https://ima20002.github.io/lesson5/preston-5.html">Preston</a></li>
+                    <li><a href="https://ima20002.github.io/lesson9/index.html">Home</a></li>
+                    <li><a class="active" href="">Preston</a></li>
                     <li><a href="">Soda Springs</a></li>
                     <li><a href="">Fish Haven</a></li>
                     <li><a href="https://ima20002.github.io/lesson8/stormcenter.html">Storm Center</a></li>
@@ -35,16 +35,27 @@
                 </ul>
             </nav>   
             <main>
-                <h2>Home</h2>
+                <h2>Preston Idaho</h2>
                 <div class="hero-ph">
                     <img src="images/skypic.png" alt="skypic">
+                    <div class="weatherSum">
+                        <h4>Weather Summary</h4>
+                        <p>Currently: <span id="descript"></span> <span id="current_temp"></span>&deg; F</p>
+                        <p>High: <span id="max_temp"></span>&deg; F</p>
+                        <p>Wind Chill: <span id="chill"></span></p>
+                        <p>Humidity: <span id="humidity"></span>%</p>
+                        <p>Wind Speed: <span id="wind_speed"></span>mph</p>
+                    </div>
                 </div>
-                <div class="cards"></div>
+                <div id="fivedays">
+                    <h3>5 Day Forecast</h3>
+                </div>
                 <div class="article">
                     <h3>Lorem Ipsum</h3>
                     <p id="pone">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-                    <img src="images/article2.png" alt="cafe">
-                    <p>Maecenas nec velit nibh. Sed tincidunt orci id imperdiet interdum. Ut varius suscipit orci, eget euismod massa auctor scelerisque. Vivamus in nisi et augue viverra varius vestibulum non velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec porttitor tellus non suscipit dapibus. Suspendisse suscipit felis eu massa fermentum, convallis gravida ante pretium. Aenean blandit nibh quis hendrerit suscipit. Integer sed mauris efficitur, dictum orci vel, facilisis magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut quis ultrices turpis, a rhoncus arcu. Aliquam erat volutpat. Phasellus nec nunc ac nibh tincidunt tempus eget nec lectus. Morbi feugiat tincidunt elementum. Aliquam pretium feugiat odio, nec accumsan tortor mollis ut.
+                    <img src="images/article1.png" alt="cafe">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin lacinia leo, non aliquet elit condimentum id. Fusce congue eros a mi dignissim, in rutrum metus euismod. Proin semper vel libero sit amet molestie. Aliquam efficitur aliquam leo, at commodo arcu congue non. Sed at accumsan nibh. Pellentesque lobortis purus lacinia diam vehicula sagittis. Sed a odio venenatis, sodales nibh vitae, mattis mauris. Cras eget venenatis lorem. Cras ullamcorper arcu vel ullamcorper porta. Integer malesuada sodales neque, sit amet rutrum magna auctor vitae.
+                    <br>Maecenas nec velit nibh. Sed tincidunt orci id imperdiet interdum. Ut varius suscipit orci, eget euismod massa auctor scelerisque. Vivamus in nisi et augue viverra varius vestibulum non velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec porttitor tellus non suscipit dapibus. Suspendisse suscipit felis eu massa fermentum, convallis gravida ante pretium. Aenean blandit nibh quis hendrerit suscipit. Integer sed mauris efficitur, dictum orci vel, facilisis magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut quis ultrices turpis, a rhoncus arcu. Aliquam erat volutpat. Phasellus nec nunc ac nibh tincidunt tempus eget nec lectus. Morbi feugiat tincidunt elementum. Aliquam pretium feugiat odio, nec accumsan tortor mollis ut.
                     </div>
                 <div class="contactInfo">
                     <img class="map" src="images/map.png" alt="map">
@@ -70,7 +81,9 @@
             <script src="js/windchill.js"></script>
             <script src="js/imagehandling.js"></script>
             <script src="js/rating.js"></script>
-            <script src="js/index.js"></script>
+            <!--<script src="js/index.js"></script>-->
+            <script src="js/weatherapi.js"></script>
+            <script src="js/forecast.js"></script>
         </div>
     </body>
 </html> 
