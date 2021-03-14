@@ -20,7 +20,7 @@ let tableR2 = document.createElement("tr");
 let tableR3 = document.createElement("tr");
 
 
-const apiURL2 = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=46095ba640f25e3b59b8f35b09589b86&units=imperial';
+const apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=46095ba640f25e3b59b8f35b09589b86&units=imperial';
 
 fetch(apiURL2)
     .then((response) => response.json())
