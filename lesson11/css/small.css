@@ -320,9 +320,8 @@ nav ul li a.active {
 
 .cards {
     display: grid;
-    grid-gap: auto;
     margin: 40px auto;
-    width: 100%;
+    width: 90%;
     border: 3px solid #dddada;
     background-color: #dad4c9;
     padding: 15px;
