@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>My Wether</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <div>
+            <div id="message">
+                <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+            </div>
+            <header>
+                <picture><img src="images/logo.jpg" alt="My wether logo"></picture>
+                <secion class="headings">
+                    <h1>My Wether</h1>
+                    <div class="m">Live everyday with the wether</div>
+                </secion>
+            </header>
+            <nav> 
+                <button onclick="toggleMenu()">&#9776; Menu</button>
+                <ul id="navMenu" class="hide">
+                    <li><a class="active" href="">Home</a></li>
+                    <li><a href="https://ima20002.github.io/lesson11/preston.html">Preston</a></li>
+                    <li><a href="">Soda Springs</a></li>
+                    <li><a href="">Fish Haven</a></li>
+                    <li><a href="https://ima20002.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+                    <li><a href="https://ima20002.github.io/lesson11/gallery.html">Gallery</a></li>
+                </ul>
+            </nav>   
+            <main>
+                <h2>Home</h2>
+                <div class="hero-ph">
+                    <img src="images/skypic.png" alt="skypic">
+                </div>
+                <div class="cards"></div>
+                <div class="article">
+                    <h3>Lorem Ipsum</h3>
+                    <p id="pone">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    <img src="images/article2.png" alt="cafe">
+                    <p>Maecenas nec velit nibh. Sed tincidunt orci id imperdiet interdum. Ut varius suscipit orci, eget euismod massa auctor scelerisque. Vivamus in nisi et augue viverra varius vestibulum non velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec porttitor tellus non suscipit dapibus. Suspendisse suscipit felis eu massa fermentum, convallis gravida ante pretium. Aenean blandit nibh quis hendrerit suscipit. Integer sed mauris efficitur, dictum orci vel, facilisis magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut quis ultrices turpis, a rhoncus arcu. Aliquam erat volutpat. Phasellus nec nunc ac nibh tincidunt tempus eget nec lectus. Morbi feugiat tincidunt elementum. Aliquam pretium feugiat odio, nec accumsan tortor mollis ut.
+                    </div>
+                <div class="contactInfo">
+                    <img class="map" src="images/map.png" alt="map">
+                    <h4>The Weather Site</h4>
+                    <p>23.59.58<br>98765</p>
+                    <p>&#9742; 000-000-0000</p> 
+                    <p>&#9993; myweather@sun.com</p>
+                    <div id="snsdiv">
+                        <a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+                        <a href="https://www.instagram.comyout"><img src="images/instagram.png" alt="instagram"></a>
+                        <a href="https://www.youtube.com"><img src="images/youtube.png" alt="youtube"></a>
+                    </div>
+                </div>
+            </main>
+            <footer>
+              <p>&copy;2021 My Wether | Hikaru | <span id="currentTime"></span></p> 
+            </footer>
+            <script src="js/time6.js"></script>
+            <script src="js/nav6.js"></script>
+            <script src="js/message6.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Raleway', 'Nunito'] } });</script>
+            <script src="js/windchill.js"></script>
+            <script src="js/imagehandling.js"></script>
+            <script src="js/rating.js"></script>
+            <script src="js/index.js"></script>
+        </div>
+    </body>
+</html> 

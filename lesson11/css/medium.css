@@ -1,0 +1,127 @@
+@media screen and (min-width: 33em) {
+
+    header img {
+        width: 100px;
+    }
+
+    .headings h1 {
+        font-size: 3rem;
+    }
+    
+    .m {
+        letter-spacing: 1.5pt;
+        font-size: .9rem;
+        margin-left: 17px;
+    }
+
+    nav button{
+        display: none;
+    }  
+    nav ul.hide {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    } 
+    /*---------------nav bars---------------*/
+    .nav {
+        display: flex;
+    }
+    
+    .nav li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .nav li a {
+        color: #ffffff;
+    }
+    .content {
+        margin: 0 auto;
+    }
+    /*--------------footer--------------*/
+    footer {
+        margin: 0 auto;
+        max-width:900px;
+    }
+
+
+    .hero-ph {
+        position: relative;
+        margin: 10px auto;
+        max-width: 800px;
+    }
+    .weatherSum {
+        top: 60px;
+    }
+
+    /*-----------------fivedays------------------*/
+    #fivedays {
+        display: block;
+        margin: auto;
+
+    }  
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+    table, tr, th{
+        border: 1px solid rgb(14, 85, 73);
+        padding: 5px 10px;
+    }
+    #fivedays img {
+        max-width: 100px;
+        height: auto;
+    }
+    tr:nth-child(1){
+        background-color:rgb(107, 182, 187);
+    }
+    tr:nth-child(2){
+        background-color: #FFFFFF;
+    }
+    #fivedays h3 {
+        text-align: center;
+    }
+
+
+    /*--------------article--------------*/
+    .article {
+        max-width: 800px;
+    }
+    .article img {
+        float: right;
+        height: 230px;
+        width: 330px;
+    }
+
+
+    /*--------------contact info--------------*/
+    .contactInfo {
+        max-width: 800px;   
+    }
+    .map {
+        display: block;
+        float: left;
+        height: 230px;
+        width: 230px;
+        padding: 13px;
+        margin-left: 25px   
+    }
+    /*--------------gallery--------------*/
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallery figure {
+        margin: 20px;
+    }
+    /*-----------------storm-----------------*/
+    form {
+        width: 70%;
+    }
+    /*-----------------index------------------*/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px;
+        width: 90%;
+    }
+  }
