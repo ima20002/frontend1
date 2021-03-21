@@ -278,18 +278,16 @@ nav ul li a.active {
 }
 .article img {
     display: block;
-    margin: 10px 3%;
+    margin: auto;
+    margin-top: 20px;
     max-width: 94%;
     height: auto;
+    box-shadow: 6px 6px 10px rgb(66, 66, 66);
 }
-.article h3 {
-    text-align: center;
-}
-#pone {
-    text-align: center;
-}
-.article p {
+
+.article h4, p {
     margin: 10px;
+    margin-top: 30px;
     font-family: "Nunito";
 }
 
@@ -341,5 +339,27 @@ section {
     margin: 10px;
     margin-bottom: 20px;
     box-shadow: 6px 6px 10px rgb(66, 66, 66);
+}
+
+/*----------------------------------events-----------------------------------------*/
+#event_schedule {
+    margin: 40px auto;
+    background-color: #b19bbb;
+    background: radial-gradient(#d0c5d1, #aa89ad);
+    border: 3px solid #dddada;
+    padding: 20px;
+    width: 90%;
+}
+
+#event_schedule h3 {
+    text-align: center;  
+}
+#events {
+    text-align: center;
+    font-family: "Nunito";
+    margin: 5px;
+}
+#events text {
+    margin: 5px;
 }
 

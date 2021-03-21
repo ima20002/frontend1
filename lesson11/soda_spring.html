@@ -26,25 +26,40 @@
             <nav> 
                 <button onclick="toggleMenu()">&#9776; Menu</button>
                 <ul id="navMenu" class="hide">
-                    <li><a class="active" href="">Home</a></li>
+                    <li><a href="https://ima20002.github.io/lesson11/index.html">Home</a></li>
                     <li><a href="https://ima20002.github.io/lesson11/preston.html">Preston</a></li>
-                    <li><a href="">Soda Springs</a></li>
-                    <li><a href="">Fish Haven</a></li>
+                    <li><a class="active" href="">Soda Springs</a></li>
+                    <li><a href="https://ima20002.github.io/lesson11/fish_haven.html">Fish Haven</a></li>
                     <li><a href="https://ima20002.github.io/lesson11/stormcenter.html">Storm Center</a></li>
                     <li><a href="https://ima20002.github.io/lesson11/gallery.html">Gallery</a></li>
                 </ul>
             </nav>   
             <main>
-                <h2>Home</h2>
+                <h2>Soda Springs</h2>
                 <div class="hero-ph">
-                    <img src="images/skypic.png" alt="glass and blue sky">
-                </div>
-                <div class="cards"></div>
-                <div class="article">
-                    <img src="images/article1.png" alt="sunrise">
-                    <p>For this cause I bow my knees unto the Father of our Lord Jesus Christ, Of whom the whole family in heaven and earth is named, That he would grant you, according to the riches of his glory, to be strengthened with might by his Spirit in the inner man; That Christ may dwell in your hearts by faith; that ye, being rooted and grounded in love, May be able to comprehend with all saints what is the breadth, and length, and depth, and height; And to know the love of Christ, which passeth knowledge, that ye might be filled with all the fulness of God. Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us, Unto him be glory in the church by Christ Jesus throughout all ages, world without end. Amen.</p>
-                    <h4>Ephesians 3:14-21</h4>
+                    <img src="images/soda_spring.png" alt="white flowers">
+                    <div class="weatherSum">
+                        <h4>Weather Summary</h4>
+                        <p>Currently: <span id="descript"></span> <span id="current_temp"></span>&deg; F</p>
+                        <p>High: <span id="max_temp"></span>&deg; F</p>
+                        <p>Wind Chill: <span id="chill"></span></p>
+                        <p>Humidity: <span id="humidity"></span>%</p>
+                        <p>Wind Speed: <span id="wind_speed"></span>mph</p>
                     </div>
+                </div>
+                <div id="fivedays">
+                    <h3>5 Day Forecast</h3>
+                </div>
+                <div id="event_schedule">
+                    <h3>Events</h3>
+                    <hr>
+                    <p id="events"></p>
+                </div>
+                <div class="article">
+                    <img src="images/article3.png" alt="young sheep">
+                    <p>The Lord isn't asking us to load up a handcart, He's asking us to fortify our faith. He isn't asking us to walk across a continent, He's asking us to walk across the street to visit our neighbor. He isn't asking us to give all of our worldly possessions to build a temple, He's asking us to attend regularly the temples already built. He isn't asking us to die a martyr's death, He's asking us to live a disciple's life.</p>
+                    <h4>-Russell M. Ballard-</h4>
+                </div>
                 <div class="contactInfo">
                     <img class="map" src="images/map.png" alt="map">
                     <h4>The Weather Site</h4>
@@ -69,7 +84,9 @@
             <script src="js/windchill.js"></script>
             <script src="js/imagehandling.js"></script>
             <script src="js/rating.js"></script>
-            <script src="js/index.js"></script>
+            <script src="js/weather2.js"></script>
+            <script src="js/forecast2.js"></script>
+            <script src="js/event2.js"></script>
         </div>
     </body>
 </html> 

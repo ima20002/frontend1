@@ -87,7 +87,7 @@
         max-width: 800px;
     }
     .article img {
-        float: right;
+        margin: auto;
         height: 230px;
         width: 330px;
     }
@@ -123,5 +123,9 @@
         grid-template-columns: 1fr 1fr;
         gap: 2px;
         width: 90%;
+    }
+    /*-----------------events------------------*/
+    #event_schedule {
+        max-width: 500px;
     }
   }

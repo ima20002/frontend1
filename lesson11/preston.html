@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>My Wether</title>
+        <title>My Weather</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/small.css">
@@ -19,8 +19,8 @@
             <header>
                 <picture><img src="images/logo.jpg" alt="My wether logo"></picture>
                 <secion class="headings">
-                    <h1>My Wether</h1>
-                    <div class="m">Live everyday with the wether</div>
+                    <h1>My Weather</h1>
+                    <div class="m">Live everyday with the weather</div>
                 </secion>
             </header>
             <nav> 
@@ -28,8 +28,8 @@
                 <ul id="navMenu" class="hide">
                     <li><a href="https://ima20002.github.io/lesson11/index.html">Home</a></li>
                     <li><a class="active" href="">Preston</a></li>
-                    <li><a href="">Soda Springs</a></li>
-                    <li><a href="">Fish Haven</a></li>
+                    <li><a href="https://ima20002.github.io/lesson11/soda_spring.html">Soda Springs</a></li>
+                    <li><a href="https://ima20002.github.io/lesson11/fish_haven.html">Fish Haven</a></li>
                     <li><a href="https://ima20002.github.io/lesson11/stormcenter.html">Storm Center</a></li>
                     <li><a href="https://ima20002.github.io/lesson11/gallery.html">Gallery</a></li>
                 </ul>
@@ -37,7 +37,7 @@
             <main>
                 <h2>Preston Idaho</h2>
                 <div class="hero-ph">
-                    <img src="images/skypic.png" alt="skypic">
+                    <img src="images/preston.png" alt="purple thistle">
                     <div class="weatherSum">
                         <h4>Weather Summary</h4>
                         <p>Currently: <span id="descript"></span> <span id="current_temp"></span>&deg; F</p>
@@ -50,17 +50,20 @@
                 <div id="fivedays">
                     <h3>5 Day Forecast</h3>
                 </div>
+                <div id="event_schedule">
+                    <h3>Events</h3>
+                    <hr>
+                    <p id="events"></p>
+                </div>
                 <div class="article">
-                    <h3>Lorem Ipsum</h3>
-                    <p id="pone">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-                    <img src="images/article1.png" alt="cafe">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin lacinia leo, non aliquet elit condimentum id. Fusce congue eros a mi dignissim, in rutrum metus euismod. Proin semper vel libero sit amet molestie. Aliquam efficitur aliquam leo, at commodo arcu congue non. Sed at accumsan nibh. Pellentesque lobortis purus lacinia diam vehicula sagittis. Sed a odio venenatis, sodales nibh vitae, mattis mauris. Cras eget venenatis lorem. Cras ullamcorper arcu vel ullamcorper porta. Integer malesuada sodales neque, sit amet rutrum magna auctor vitae.
-                    <br>Maecenas nec velit nibh. Sed tincidunt orci id imperdiet interdum. Ut varius suscipit orci, eget euismod massa auctor scelerisque. Vivamus in nisi et augue viverra varius vestibulum non velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec porttitor tellus non suscipit dapibus. Suspendisse suscipit felis eu massa fermentum, convallis gravida ante pretium. Aenean blandit nibh quis hendrerit suscipit. Integer sed mauris efficitur, dictum orci vel, facilisis magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut quis ultrices turpis, a rhoncus arcu. Aliquam erat volutpat. Phasellus nec nunc ac nibh tincidunt tempus eget nec lectus. Morbi feugiat tincidunt elementum. Aliquam pretium feugiat odio, nec accumsan tortor mollis ut.
-                    </div>
+                    <img src="images/article2.png" alt="bible and a cup of tea">
+                    <p>The noblest calling in the world is motherhood. True motherhood is the most beautiful of all arts, the greatest of all professions. She who can paint a masterpiece, or who can write a book that will influence millions, deserve the plaudits and admiration of mankind; but she who rears successfully a family of healthy, beautiful sons and daughters whose immortal souls will exert influence throughout the ages long after paintings shall have faded, and books and statues shall have decayed or been destroyed, deserves the highest honor that man can give, and the choicest blessings of God.</p>
+                    <h4>-David O. McKay-</h4>
+                </div>
                 <div class="contactInfo">
                     <img class="map" src="images/map.png" alt="map">
                     <h4>The Weather Site</h4>
-                    <p>23.59.58<br>98765</p>
+                    <p>Preston<br>Idaho 83263, USA</p>
                     <p>&#9742; 000-000-0000</p> 
                     <p>&#9993; myweather@sun.com</p>
                     <div id="snsdiv">
@@ -81,9 +84,9 @@
             <script src="js/windchill.js"></script>
             <script src="js/imagehandling.js"></script>
             <script src="js/rating.js"></script>
-            <!--<script src="js/index.js"></script>-->
             <script src="js/weatherapi.js"></script>
             <script src="js/forecast.js"></script>
+            <script src="js/event1.js"></script>
         </div>
     </body>
 </html> 
