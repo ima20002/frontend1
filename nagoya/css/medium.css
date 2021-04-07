@@ -1,0 +1,131 @@
+@media screen and (min-width: 33em) {
+
+
+    .headings h1 {
+        font-size: 2.5rem;
+    }
+
+    nav button{
+        display: none;
+    }  
+    nav ul.hide {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    } 
+    /*---------------nav bars---------------*/
+    .nav {
+        display: flex;
+    }
+    .nav li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .nav li a {
+        color: #ffffff;
+    }
+    .content {
+        margin: 0 auto;
+    }
+
+
+    .welcome {
+        margin: auto 50px;
+    }
+    /*--------------footer--------------*/
+    footer {
+        margin: 0 auto;
+
+    }
+    .weatherSum {
+        top: 60px;
+    }
+
+    /*-----------------fivedays------------------*/
+    #fivedays {
+        display: block;
+        margin: 15px auto;
+
+    }  
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+    table, tr, th{
+        border: 1px solid rgb(14, 85, 73);
+        padding: 5px 10px;
+    }
+    #fivedays img {
+        max-width: 100px;
+        height: auto;
+    }
+    tr:nth-child(1){
+        background-color:rgb(107, 182, 187);
+    }
+    tr:nth-child(2){
+        background-color: #FFFFFF;
+    }
+    #fivedays h3 {
+        text-align: center;
+    }
+    /*-----------------JOIN---------------*/
+    .text_box {
+        padding: 30px;
+    }
+    .event_box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+    .event_box img {
+        margin: auto;
+        max-width: 100%;
+    }
+    .event_box figcaption {
+        padding: auto;
+        margin: auto;
+    }
+    /*--------------article--------------*/
+    .article img {
+        margin: auto;
+        height: 230px;
+        width: 330px;
+    }
+
+    .three_company{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    /*--------------contact info--------------*/
+    
+    .map {
+        display: block;
+        float: left;
+        height: 230px;
+        width: 230px;
+        padding: 13px;
+        margin-left: 25px   
+    }
+    /*--------------gallery--------------*/
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallery figure {
+        margin: 20px;
+    }
+    /*-----------------application-----------------*/
+    form {
+        width: 70%;
+    }
+    /*-----------------index------------------*/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /*-----------------events------------------*/
+    #event_schedule {
+        max-width: 500px;
+    }
+  }

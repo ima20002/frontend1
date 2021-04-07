@@ -1,0 +1,487 @@
+body {
+    background-color: #F0ECE5;
+    font-size: 16px;
+    font-family: 'Montserrat', 'Mukta', sans-serif;
+
+    }
+#message {
+    background-color:rgb(192, 124, 166);
+    text-align: center;
+    color: #222018;
+    height: 60px;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.showme {
+    display: block;
+}
+.hideme {
+    display: none;
+}
+
+header {
+    background-color: #E8CDB0;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    background-color: #E8CDB0;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.5rem;
+    color: #312a23;
+}
+
+.m {
+    font-family: "Mukta";
+    letter-spacing:  2pt;
+    color: #a88421;
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+/*-----------------------------nav bars----------------------------*/
+nav{
+    margin: auto;
+    max-width: 100%;
+    background-color: #E8CDB0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav button {
+    background-color: transparent;
+    font-family: "Nunito";
+    padding: 7px 0;
+    border: none;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #2c2722;
+    font-weight: 700;
+}
+nav ul.hide {
+    display: none;
+}
+
+nav ul li a.active {
+    background-color: #c2ac95;
+}
+#navMenu img {
+    width: 34px;
+    margin: 3px 18px 3px 18px;
+}
+/*-----------------------------main----------------------------*/
+main {
+    display: block;
+}
+/*main figure.myphoto img {
+    width: 100%;
+}*/
+
+/*----------------------------welcome----------------------------*/
+.welcome {
+    margin: auto 20px;
+}
+.welcome h3, p{
+    text-align: center;
+}
+
+/*-----------------------------gallery----------------------------*/
+.gallery {
+    max-width: 90%;
+    margin: 15px auto;
+}
+
+.gallery figure {
+    box-shadow: 4px 4px 10px rgb(131,131,131);
+    border-radius: 6px;
+    background-color: #A2A7BF;
+    margin: 20px auto;
+    display: block;
+}
+
+.gallery figcaption {
+    padding: 10px;
+    margin-top: -3px;
+}
+
+.gallery img[data-src] {
+    filter: blur(0.2em);
+}
+
+.gallery img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+/*----------------------------JOIN---------------------------*/
+.top_of_page {
+    font-family: 'Mutka';
+    background-color: #E8CDB0;
+    padding-bottom: 20px;
+}
+.top_of_page img {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+.text_box { 
+    margin: auto;
+    padding: 12px;
+    text-align: center;
+    background-color: #DA9599;
+}
+.text_box hr {
+    text-decoration: bold;
+}
+.text_box ul li{
+    font-family: 'Montserrat';
+    padding: 20px;
+}
+.event_box img {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+}
+.event_box figcaption {
+    padding: 10px;
+    margin-top: -3px;
+}
+/*----------------------------application---------------------------*/
+.application {
+    padding: 20px auto;
+    color: #324b4a;
+    font-family: 'Mukta';
+}
+form {
+    width: 90%;
+    margin: auto;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #324b4a;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #324b4a;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #324b4a;
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select, form label.top option {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #324b4a;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .60rem .4rem;
+    color: #555;
+}
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #5D9883;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: .75rem .8rem;
+    margin: 10px auto;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: rgb(216, 41, 123) solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: rgb(48, 131, 110) solid 6px;
+}
+
+form label.top textarea {
+    width: 90%;
+}
+
+.confirm_title {
+    text-align: center;
+    margin: 30px 10px;
+}
+
+.confirm_p {
+    text-align: center;
+    margin: 50px 10px;
+}
+/*-----------------------------footer----------------------------*/
+footer {
+    background-color: #E8CDB0;
+    padding: 5px 0;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/*-------------------------main picture-------------------------*/
+.main_pic {
+    position: relative;   
+}
+
+.main_pic img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+/*------------------------------Event-----------------------------------*/
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.local_event {
+    background-color: #DA9599;
+}
+.local_event h3 {
+    text-align: center;
+}
+.local_event ul li {
+    margin: 20px;
+}
+/*-------------------------wetherSummary-------------------------*/
+.weaTher {
+    background: #71a593;
+}
+.weatherSum {  
+	top: 30px;
+	left: 30px;
+	padding: 0.7rem;
+    padding-top: 2px;
+	opacity: .9;
+}
+.weatherSum h3 {
+    text-align: center;
+}
+.weatherSum p {
+    font-size: 1rem;
+    margin: 3px;
+    font-family: "Mukta";
+}
+
+
+/*----------------------------five days forecast----------------------------*/
+#fivedays {
+    display: none;
+}
+/*-----------------------------three company----------------------------*/
+.three_company{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #dad4c9;
+    text-align: center;
+    padding: 40px;
+}
+
+
+/*-----------------------------article----------------------------*/
+.article {
+    margin: auto;
+    padding: 20px;
+    
+}
+.article img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 94%;
+    height: auto;
+    box-shadow: 6px 6px 10px rgb(66, 66, 66);
+}
+
+.article h4, p {
+    margin: 10px;
+    margin-top: 30px;
+    font-family: "Mukta";
+}
+
+
+/*-----------------------------contact information----------------------------*/
+.contactInfo {
+    margin: auto;
+    background-color: #dad4c9;
+    padding: 20px;
+    max-width: 100%;
+}
+.map {
+    display: none;
+}
+.contactInfo h4 {
+    text-align: center;
+}
+.contactInfo p {
+    text-align: center;
+}
+#snsdiv {
+    text-align: center; 
+    margin: 8px;
+    margin-top: 20px;
+}
+/*----------------------------------index-----------------------------------------*/
+
+.cards {
+    display: grid;
+    max-width: 100%;
+    border: 3px solid #dddada;
+    background-color: #dad4c9;
+    padding: 15px;
+}
+
+container {
+    text-align: center;
+    max-width: 100%;
+    margin: 10px;
+    background-color: #c0c0c0;
+    border-radius: 8px;
+}
+
+.cards img {
+    max-width: 90%;
+    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: 6px 6px 10px rgb(66, 66, 66);
+}
+
+/*----------------------------------events-----------------------------------------*/
+#event_schedule {
+    margin: 40px auto;
+    background-color: #b19bbb;
+    background: radial-gradient(#d0c5d1, #aa89ad);
+    border: 3px solid #dddada;
+    padding: 20px;
+    width: 90%;
+}
+
+#event_schedule h3 {
+    text-align: center;  
+}
+#events {
+    text-align: center;
+    font-family: "Nunito";
+    margin: 5px;
+}
+#events text {
+    margin: 5px;
+}
+/*----------------------------------contact_page-----------------------------------------*/
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+ul.no-bullets li a {
+    text-align: center; 
+    margin: 8px;
+    margin-top: 20px;
+}
+.directors {
+    margin: auto;
+    margin-top: 20px;
+    background-color: #dad4c9;
+    padding: 20px;
+    color: #324b4a;
+    font-family: 'Mukta';
+}
+.directors ul li {
+    text-align: center;
+}
+.google_map iframe{  
+    text-align: center;
+    width: 100%;
+}
+/*----------------------------------city-----------------------------------------*/
+.history {
+    padding: 20px;
+    margin: auto;
+}
+
+.history_photo img {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+
+.demographic_info {
+    background-color: #e2d8c6;
+    padding: 20px;
+    margin: auto;
+}
+
+.population table {
+    border-collapse:  collapse;
+    margin: auto;
+}
+
+.population tr:nth-child(odd) {
+    background-color: #5D9883;    
+}
+.population tr:nth-child(even) {
+    background-color:  rgb(255, 255, 255);  
+}
+.population th,td {
+    padding: 10px;     
+}
+.demographic_info table, tr, th {
+    margin: auto;
+}

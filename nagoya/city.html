@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Nagoya Chamber of Commerce</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <div>
+            <div id="message">
+                <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+            </div>
+            <nav>
+                <button onclick="toggleMenu()">&#9776; Menu</button>
+                <ul id="navMenu" class="hide">
+                    <li><img src="images/logo2.png" alt="flower logo"></li>
+                    <li><a href="https://ima20002.github.io/nagoya/home.html">Home</a></li>
+                    <li><a class="active" href="">City</a></li>
+                    <li><a href="https://ima20002.github.io/nagoya/join.html">Join</a></li>
+                    <li><a href="https://ima20002.github.io/nagoya/directory.html">Directory</a></li>
+                    <li><a href="https://ima20002.github.io/nagoya/contact.html">Contact</a></li>
+                </ul>
+            </nav> 
+            <header>
+                <secion class="headings">
+                    <h1>Nagoya Chamber of Commerce</h1>
+                    <div class="m">community and industry</div>
+                </secion>
+            </header>   
+            <main>
+                <div class="top_of_page">
+                    <img src="images/hisaya.png" alt="nagoya station">
+                    <div class="text_box">
+                        <h2>Event Information</h2>
+                        <h3>Now is the season. Event special feature in Nagoya.</h3>
+                        <hr>
+                        <div class="event_box">
+                            <figure><img src="images/tsurumai.png" alt="Tsurumai Park"><figcaption>Tsurumai Spring Park<br>Date: March 25, 2021 to June 6, 2021</figcaption></figure>
+                            <figure><img src="images/kinshachi.png" alt="Nagoya Castle Kinshachi"><figcaption>Nagoya Castle Kinshachi Special Exhibition<br>Date: April 10, 2021 to July 11, 2021</figcaption></figure>
+                            <figure><img src="images/market.png" alt="Morning Market"><figcaption>Higashi Betsuin Living Morning Market<br>Dates: 8th, 18th, 28th of every month</figcaption></figure>
+                        </div>
+                    </div>
+                </div> 
+                <div class="history">
+                    <h2>History</h2>
+                    <p>Nagoya has expanded mainly in two areas: the town of Atsuta centered on the historic Atsuta Shrine and the castle town built by Ieyasu Tokugawa.<br>Atsuta Shrine has a history of over 1900 years and has prospered as a post town with constant worshipers. Sakae became the most downtown area in Nagoya after Ieyasu Tokugawa built Nagoya Castle. Since the establishment of the Aichi Prefectural Office in the Meiji era, it has functions as a police, postal service, and government office district, and a large department store has opened, making it the center of Nagoya for both business and commerce. And it became a culturally enjoyable town with lush parks, art galleries and museums. </p>
+                    <div class="history_photo">
+                        <img src="images/atsuta.jpg" alt="Atsuta Shrine">
+                        <img src="images/sakae.png" alt="Sakae downtown">
+                    </div>
+                </div> 
+                <div class="demographic_info">
+                    <h2>Demographic Information</h2>
+                    <table class="population">
+                        <tbody>
+                            <tr>
+                                <th colspan="3">Population (Mar. 1, 2021)</th>
+                            </tr>
+                            <tr>
+                                <th>Current population</th>
+                                <td colspan="2">2,325,060</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <th colspan="3">Age (Apr. 1, 2020)</th>
+                            </tr>
+                            <tr>
+                                <th>65-</th>
+                                <td>573.891</td>
+                                <td>(25.1%)</td>
+                            </tr>
+                            <tr>
+                                <th>15-64</th>
+                                <td>1,434,889</td>
+                                <td>(62.7%)</td>
+                            </tr>
+                            <tr>
+                                <th>0-14</th>
+                                <td>278,543</td>
+                                <td>(12.2%)</td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <th colspan="3">Avg. life span (2018)</th>
+                            </tr>
+                            <tr>
+                                <th>Male</th>
+                                <td colspan="2">81.04</td>
+                            </tr>
+                            <tr>
+                                <th>Female</th>
+                                <td colspan="2">86.81</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="nagoya_event">
+
+                </div>
+            </main>
+            <footer>
+                <p>&copy;Nagoya Chamber of Commerce | Weather data provided by <a href="https://openweathermap.org/" target="openweathermap">Open Weather Map</a>
+                  <br>Hikaru | <span id="currentTime"></span></p> 
+              </footer>
+            <script src="js/time6.js"></script>
+            <script src="js/nav6.js"></script>
+            <script src="js/message6.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Montserrat', 'Mukta'] } });</script>
+            <script src="js/windchill.js"></script>
+            <script src="js/imagehandling.js"></script>
+            <script src="js/rating.js"></script>
+        </div>
+    </body>
+</html> 

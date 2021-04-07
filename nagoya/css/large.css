@@ -1,0 +1,78 @@
+@media screen and (min-width: 64em) {
+    
+    .headings h1 {
+        font-size: 3rem;
+    }
+
+    nav a {
+      padding: 0.75rem 3rem;
+    }
+
+    .weatherSum {
+      top: 120px;
+    }
+
+    .article img {
+      height: 280px;
+      width: 380px;
+    }
+
+    .welcome {
+      margin: auto 300px;
+    }
+        
+    .benefit img {
+      max-width: 100%;
+      margin: 20px auto;
+      margin-right: 0px;
+    }
+    /*-----------------JOIN---------------*/
+    .top_of_page {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    .top_of_page img {
+      max-width: 100%;
+      margin: auto 30px;
+  }
+    .text_box {
+      padding: 10px;
+    }
+    .event_box {
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: auto;
+    }
+    .event_box img {
+      margin: auto;
+      max-width: 100%;
+    }
+    
+    /*--------------gallery--------------*/
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .gallery figure:hover {
+      box-shadow: 12px 12px 30px rgb(27, 26, 26);
+    }
+
+    /*-----------------application-----------------*/
+    form {
+      width: 40%;
+    }
+    /*-----------------index------------------*/
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    /*-------------------city-----------------*/
+    .history {
+      padding: 40px;
+      margin: auto;
+    }
+    .history p {
+      padding: 0 100px;
+    }
+    .history_photo {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }

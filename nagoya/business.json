@@ -1,0 +1,46 @@
+{
+    "business": [
+        {
+            "name": "TOYOTA",
+            "photo": "toyota.png",
+            "contact": "0800-700-7700",
+            "website": "https://www.toyota.com"
+        },
+        {
+            "name": "Meitetsu World Travel Inc.",
+            "photo": "meitetsu.png",
+            "contact": "011-205-5230",
+            "website": "https://www.mwt.co.jp"
+        },
+        {
+            "name": "CHUBU Electric Power",
+            "photo": "shuden.png",
+            "contact": "052-951-8211",
+            "website": "https://www.chuden.co.jp"
+        },
+        {
+            "name": "Sinto Industrial CO.,LTD",
+            "photo": "shinto.png",
+            "contact": "052-582-9211",
+            "website": "http://www.sinto.co.jp"
+        },
+        {
+            "name": "Brother Industrial CO.,LTD",
+            "photo": "brother.png",
+            "contact": "0566-95-0075",
+            "website": "https://www.brother.co.jp"
+        },
+        {
+            "name": "Takeda Printing CO.,LTD",
+            "photo": "takeda.png",
+            "contact": "groupcorpcomms@aia.com",
+            "website": "https://www.takeda-prn.co.jp"
+        },
+        {
+            "name": "Heico Japan",
+            "photo": "heico.png",
+            "contact": "0562-85-4035",
+            "website": "https://www.heico-group.com"
+        }
+    ]
+}

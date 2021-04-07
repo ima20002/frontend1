@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Nagoya Chamber of Commerce</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <div>
+            <div id="message">
+                <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+            </div>
+            <nav>
+                <button onclick="toggleMenu()">&#9776; Menu</button>
+                <ul id="navMenu" class="hide">
+                    <li><img src="images/logo2.png" alt="flower logo"></li>
+                    <li><a href="https://ima20002.github.io/nagoya/home.html">Home</a></li>
+                    <li><a href="https://ima20002.github.io/nagoya/city.html">City</a></li>
+                    <li><a class="active" href="">Join</a></li>
+                    <li><a href="https://ima20002.github.io/nagoya/directory.html">Directory</a></li>
+                    <li><a href="https://ima20002.github.io/nagoya/contact.html">Contact</a></li>
+                </ul>
+            </nav> 
+            <header>
+                <secion class="headings">
+                    <h1>Nagoya Chamber of Commerce</h1>
+                    <div class="m">community and industry</div>
+                </secion>
+            </header>   
+            <main>
+                <div class="top_of_page">
+                    <img src="images/station2.png" alt="nagoya station">
+                    <div class="text_box">
+                        <h2>Would you like to join the member network?</h2>
+                        <h3>You can expect these effects by using the services of the Chamber of Commerce.</h3>
+                        <hr>
+                        <p>Participation in business exchange meetings, exhibitions, and etc., will expand sales channels and personal connections</p>
+                        <ul>
+                            <li>Free advertisements in newsletters that reach the members' management</li>
+                            <li>PR on the Web and e-mail newsletters</li>
+                            <li>Training for all levels from new employees to executives at member prices</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="application">
+                    <h2>Membership application</h2>
+                    <form method="get" action="confirmation.html">
+                        <fieldset>
+                            <legend>Your Information</legend>
+                            <label class="top">First name* <input type="text" name="fname" pattern="[A-Za-z]{5,}" required></label><br>
+                            <label class="top">Last name* <input type="text" name="lname" pattern="[A-Za-z]{5,}" required></label><br>
+                            <label class="top">Title <input type="text" name="title" pattern="[A-Za-z]{5,}"></label><br>
+                            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label><br>
+                            <label class="top">Cell Phone <input type="tel" name="phone" placeholder="123451234"></label><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Company Information</legend>
+                            <label class="top">Business name* <input type="text" name="bname" pattern="[A-Za-z]{5,}" required></label><br>
+                            <label class="top">Business address <input type="text" name="adress" pattern="[A-Za-z0-9]{5,}"></label><br>
+                            <label class="top">Business website <input type="text" name="website" pattern="[A-Za-z0-9]{5,}"></label><br>
+                            <label class="top">Business description<textarea rows="4" cols="50"></textarea></label>
+                            <label class="top">Membership Level (annual fees)</label>
+                                <div class="selection">
+                                    <label class="sbs"><input type="radio" name="level" checked> Non-profit ($100)</label>
+                                </div>
+                                <div class="selection">
+                                    <label class="sbs"><input type="radio" name="level"> Bronze ($200)</label>
+                                </div>
+                                <div class="selection">
+                                    <label class="sbs"><input type="radio" name="level"> Silver ($400)</label>
+                                </div>
+                                <div class="selection">
+                                    <label class="sbs"><input type="radio" name="level"> Gold ($1000)</label>
+                                </div>
+                            </label>
+                            <h4>The different perks of each level</h4>
+                                <p>All membership level will receive directory listings, and social media posts</p>
+                                <ul>
+                                    <li>Non-profit ($100): free business trainings 1 time/month</li>
+                                    <li>Bronze ($200): free business trainings 2 times/month</li>
+                                    <li>Silver ($400): free business trainings 4 times/month</li>
+                                    <li>Gold ($1000): free unlimited business trainings and sponsorships with advertising</li>
+                                </ul>
+                        </fieldset>
+                        <input type="submit" value="Send" class="submitBtn">
+                    </form> 
+                </div>  
+            </main>
+            <footer>
+                <p>&copy;Nagoya Chamber of Commerce | Weather data provided by <a href="https://openweathermap.org/" target="openweathermap">Open Weather Map</a>
+                  <br>Hikaru | <span id="currentTime"></span></p> 
+              </footer>
+            <script src="js/time6.js"></script>
+            <script src="js/nav6.js"></script>
+            <script src="js/message6.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Raleway', 'Nunito'] } });</script>
+            <script src="js/windchill.js"></script>
+            <script src="js/imagehandling.js"></script>
+            <script src="js/rating.js"></script>
+        </div>
+    </body>
+</html> 

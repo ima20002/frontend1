@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Nagoya Chamber of Commerce</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <div>
+            <div id="message">
+                <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+            </div>
+            <nav>
+                <button onclick="toggleMenu()">&#9776; Menu</button>
+                <ul id="navMenu" class="hide">
+                    <li><img src="images/logo2.png" alt="flower logo"></li>
+                    <li><a href="https://ima20002.github.io/nagoya/home.html">Home</a></li>
+                    <li><a href="https://ima20002.github.io/nagoya/city.html">City</a></li>
+                    <li><a href="https://ima20002.github.io/nagoya/join.html">Join</a></li>
+                    <li><a href="https://ima20002.github.io/nagoya/directory.html">Directory</a></li>
+                    <li><a lass="active" href="">Contact</a></li>
+                </ul>
+            </nav> 
+            <header>
+                <secion class="headings">
+                    <h1>Nagoya Chamber of Commerce</h1>
+                    <div class="m">community and industry</div>
+                </secion>
+            </header>   
+            <main>
+                <div class="top_of_page">
+                    <img src="images/ohsu.png" alt="ohsu shrine">
+                    <div class="text_box">
+                        <h2>Our Contact Information</h2>
+                        <h3>Feel free to contact us by telephone or email. If you have any questions or comments will always be happy to help.</h3>
+                        <hr>
+                        <p>Monday - Friday: 9:00am - 5:00pm</p>
+                        <ul class="no-bullets">
+                            <li>12-1212 Nakaku<br>Nagoya-shi, Aichi 464-0006<br>Japan</li>
+                            <li>&#9742; 010-020-0000</li>
+                            <li>&#9993; nagoya_cc@sun.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="google_map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104396.0474504785!2d136.85627119121878!3d35.147230366081196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003709e107b2365%3A0x2a9622d4e8ceb352!2sNagoya%2C%20Aichi!5e0!3m2!1sen!2sjp!4v1617796519765!5m2!1sen!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="application">
+                    <h2>Contact Us</h2>
+                    <form method="get" action="contact_confirm.html">
+                        <fieldset>
+                            <legend>Your Contact</legend>
+                            <label class="top">Name* <input type="text" name="fname" pattern="[A-Za-z]{5,}" required></label><br>
+                            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label><br>
+                            <label class="top">Phone <input type="tel" name="phone" placeholder="123451234"></label><br>
+                            <label class="top">Comments <textarea rows="4" cols="50"></textarea></label>
+                        </fieldset>
+                        <input type="submit" value="Send" class="submitBtn">
+                    </form> 
+                </div>
+                <div class="directors">
+                    <h2>Nagoya Chamber of Commerce Board of Directors</h2>
+                    <ul class="no-bullets">
+                        <li>Masaki Amamiya Chairman of the Board and Chief Executive Officer, Nagoya Chamber of Commerce</li>
+                        <li>Tomoyo Daidoji Chief Operating Officer, Nagoya Manufacturers Inc.</li>
+                        <li>Naoko Yanagisawa Corporate Counsel, Nagoya International</li>
+                        <li>Takashi Yamazaki Retired Chief Executive Officer, Nagoya Industry Corp.</li>
+                        <li>Chiharu Mihara Chief Financial Officer, Accounting Partners Inc.</li>
+                    </ul>
+                </div>
+            </main>
+            <footer>
+                <p>&copy;Nagoya Chamber of Commerce | Weather data provided by <a href="https://openweathermap.org/" target="openweathermap">Open Weather Map</a>
+                  <br>Hikaru | <span id="currentTime"></span></p> 
+              </footer>
+            <script src="js/time6.js"></script>
+            <script src="js/nav6.js"></script>
+            <script src="js/message6.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Montserrat', 'Mukta'] } });</script>
+            <script src="js/windchill.js"></script>
+            <script src="js/imagehandling.js"></script>
+            <script src="js/rating.js"></script>
+        </div>
+    </body>
+</html> 
