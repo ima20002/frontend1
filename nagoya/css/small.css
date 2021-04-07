@@ -286,7 +286,7 @@ h2 {
     width: 100%;
 }
 /*------------------------------Event-----------------------------------*/
-section {
+.event_weather {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -388,7 +388,7 @@ section {
     padding: 15px;
 }
 
-container {
+section {
     text-align: center;
     max-width: 100%;
     margin: 10px;

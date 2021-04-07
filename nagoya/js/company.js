@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://raw.githubusercontent.com/ima20002/ima20002.github.io/master/nagoya/business.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -8,7 +8,9 @@ fetch(requestURL)
 
     const business = jsonObject['business'];
     
-      let card = document.createElement('container');
+    for (let i = 0; i < business.length; i++ ) {
+
+      let card = document.createElement('section');
 
       let name = document.createElement('h3');
       let contact = document.createElement('p');
@@ -27,5 +29,6 @@ fetch(requestURL)
       card.appendChild(image);
 
       document.querySelector('div.cards').appendChild(card); 
+    }
   });
 
