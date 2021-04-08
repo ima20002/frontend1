@@ -13,9 +13,6 @@
     </head>
     <body>
         <div>
-            <div id="message">
-                <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
-            </div>
             <nav>
                 <button onclick="toggleMenu()">&#9776; Menu</button>
                 <ul id="navMenu" class="hide">
@@ -28,10 +25,10 @@
                 </ul>
             </nav> 
             <header>
-                <secion class="headings">
+                <div class="headings">
                     <h1>Nagoya Chamber of Commerce</h1>
                     <div class="m">community and industry</div>
-                </secion>
+                </div>
             </header>   
             <main>
                 <div class="top_of_page">
@@ -102,22 +99,18 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="nagoya_event">
-
-                </div>
             </main>
             <footer>
                 <p>&copy;Nagoya Chamber of Commerce | Weather data provided by <a href="https://openweathermap.org/" target="openweathermap">Open Weather Map</a>
-                  <br>Hikaru | <span id="currentTime"></span></p> 
-              </footer>
-            <script src="js/time6.js"></script>
-            <script src="js/nav6.js"></script>
-            <script src="js/message6.js"></script>
+                  <br><span id="currentTime"></span></p> 
+            </footer>
             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
             <script>WebFont.load({google: {families: ['Montserrat', 'Mukta'] } });</script>
-            <script src="js/windchill.js"></script>
-            <script src="js/imagehandling.js"></script>
-            <script src="js/rating.js"></script>
+            <script src="js/time6.js"></script>
+            <script src="js/nav6.js"></script>
+            <script src="js/company.js"></script>
+            <script src="js/weatherapi.js"></script>
+            <script src="js/forecast.js"></script>
         </div>
     </body>
 </html> 

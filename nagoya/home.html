@@ -13,9 +13,6 @@
     </head>
     <body>
         <div>
-            <div id="message">
-                <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
-            </div>
             <nav>
                 <button onclick="toggleMenu()">&#9776; Menu</button>
                 <ul id="navMenu" class="hide">
@@ -28,10 +25,10 @@
                 </ul>
             </nav> 
             <header>
-                <secion class="headings">
+                <div class="headings">
                     <h1>Nagoya Chamber of Commerce</h1>
                     <div class="m">community and industry</div>
-                </secion>
+                </div>
             </header>  
             <main>
                 <div class="main_pic">
@@ -45,47 +42,51 @@
                 <div class="event_weather">
                     <div class="local_event">
                         <h3>Events</h3>
-                        <ul>
+                        <ul class="no-bullets">
                             <li>April 18th: Medical check service</li>
                             <li>April 20th: Practical basic course for business people</li>
                             <li>April 26th: High school and company employment opinion exchange meeting</li>
                         </ul>
+                        <img src="images/cherry.png" alt="cherry blossom">
                     </div>
                     <div class="weaTher">
                         <div class="weatherSum">
                             <h3>Weather</h3>
                             <p>Current Temperature: <span id="current_temp"></span>&deg; F</p>
-                            <p>Current Condition: <span id="descript"></span></p>
+                            <p>Current Condition: <span id="condition"></span></p>
                             <p>Humidity: <span id="humidity"></span>%</p>
+                            <hr>
                         </div>
-                        <div id="fivedays"></div>
+                        <div id="threedays">
+                            <p><span id="first_day"></span>: <span id="first_day_temp"></span>&deg; F | <span id="second_day"></span>: <span id="second_day_temp"></span>&deg; F | <span id="third_day"></span>: <span id="third_day_temp"></span>&deg; F</p>
+                        </div>
                     </div>
                 </div>
                 <div class="three_company">
-                    <div>
+                    <div class="toyota">
                         <h3>TOYOTA</h3>
                         <p>Through all their business activities, Toyota contributes to the creation of a prosperous society and aims to be a good corporate citizen trusted by all stakeholders.</p>
                         <img src="images/toyota.png" alt="toyota logo">
                     </div>
-                    <div>
+                    <div class="meitetsu">
                         <h3>Meitetsu World Travel Inc.,</h3>
                         <p>They value the "communication" that arises from "people-to-people encounters", and contribute to the development of a rich society.</p>
                         <img src="images/meitetsu.png" alt="meitetsu logo">
                     </div>
-                    <div>
+                    <div class="chubu">
                         <h3>CHUBU Electric Power</h3>
                         <p>They take the voices of the local community seriously and strive to improve safety every day. </p>
                         <img src="images/chubu.png" alt="chubu logo">
                     </div>
                 </div>
-                <div class="article">
-                    <img src="images/article1.png" alt="sunrise">
-                    <p>For this cause I bow my knees unto the Father of our Lord Jesus Christ, Of whom the whole family in heaven and earth is named, That he would grant you, according to the riches of his glory, to be strengthened with might by his Spirit in the inner man; That Christ may dwell in your hearts by faith; that ye, being rooted and grounded in love, May be able to comprehend with all saints what is the breadth, and length, and depth, and height; And to know the love of Christ, which passeth knowledge, that ye might be filled with all the fulness of God. Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us, Unto him be glory in the church by Christ Jesus throughout all ages, world without end. Amen.</p>
-                    <h4>Ephesians 3:14-21</h4>
-                    </div>
+                <div class="call_to_action">
+                    <h3>Join us!</h3>
+                    <p>It is the largest comprehensive economic organization in the Nagoya area supported by many members.
+                        <br>People of all sizes, industries, and groups, from large companies to individual shops, are members.</p>
+                    <a class="action_button" href="https://ima20002.github.io/nagoya/join.html">Join Now</a>
+                </div>
                 <div class="contactInfo">
-                    <img class="map" src="images/map.png" alt="map">
-                    <h4>The Weather Site</h4>
+                    <h4>Contact Information</h4>
                     <p>12-1212 Nakaku<br>Nagoya-shi, Aichi 464-0006<br>Japan</p>
                     <p>&#9742; 010-020-0000</p> 
                     <p>&#9993; nagoya_cc@sun.com</p>
@@ -98,17 +99,13 @@
             </main>
             <footer>
               <p>&copy;Nagoya Chamber of Commerce | Weather data provided by <a href="https://openweathermap.org/" target="openweathermap">Open Weather Map</a>
-                <br>Hikaru | <span id="currentTime"></span></p> 
+                <br><span id="currentTime"></span></p> 
             </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Montserrat', 'Mukta'] } });</script> 
             <script src="js/time6.js"></script>
             <script src="js/nav6.js"></script>
-            <script src="js/message6.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-            <script>WebFont.load({google: {families: ['Montserrat', 'Mukta'] } });</script>
-            <script src="js/windchill.js"></script>
-            <script src="js/imagehandling.js"></script>
-            <script src="js/rating.js"></script>
-            <script src="js/index.js"></script>
+            <script src="js/company.js"></script>
             <script src="js/weatherapi.js"></script>
             <script src="js/forecast.js"></script>
         </div>

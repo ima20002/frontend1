@@ -32,6 +32,10 @@
     .welcome {
         margin: auto 50px;
     }
+    .event_weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     /*--------------footer--------------*/
     footer {
         margin: 0 auto;
@@ -39,34 +43,6 @@
     }
     .weatherSum {
         top: 60px;
-    }
-
-    /*-----------------fivedays------------------*/
-    #fivedays {
-        display: block;
-        margin: 15px auto;
-
-    }  
-    table {
-        margin: auto;
-        border-collapse: collapse;
-    }
-    table, tr, th{
-        border: 1px solid rgb(14, 85, 73);
-        padding: 5px 10px;
-    }
-    #fivedays img {
-        max-width: 100px;
-        height: auto;
-    }
-    tr:nth-child(1){
-        background-color:rgb(107, 182, 187);
-    }
-    tr:nth-child(2){
-        background-color: #FFFFFF;
-    }
-    #fivedays h3 {
-        text-align: center;
     }
     /*-----------------JOIN---------------*/
     .text_box {
@@ -82,21 +58,8 @@
         max-width: 100%;
     }
     .event_box figcaption {
-        padding: auto;
         margin: auto;
     }
-    /*--------------article--------------*/
-    .article img {
-        margin: auto;
-        height: 230px;
-        width: 330px;
-    }
-
-    .three_company{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-
     /*--------------contact info--------------*/
     
     .map {
@@ -107,19 +70,12 @@
         padding: 13px;
         margin-left: 25px   
     }
-    /*--------------gallery--------------*/
-    .gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .gallery figure {
-        margin: 20px;
-    }
+    
     /*-----------------application-----------------*/
     form {
         width: 70%;
     }
-    /*-----------------index------------------*/
+    /*-----------------business-----------------*/
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -127,5 +83,23 @@
     /*-----------------events------------------*/
     #event_schedule {
         max-width: 500px;
+    }
+    /*-----------------grid and list-----------------*/
+    .btn {
+        display: inline-block;
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+    }
+      
+    .btn:hover {
+    background-color: #ddd;
+    }
+    
+    .btn.active {
+    background-color: #666;
+    color: white;
     }
   }

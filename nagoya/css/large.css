@@ -12,15 +12,14 @@
       top: 120px;
     }
 
-    .article img {
-      height: 280px;
-      width: 380px;
-    }
-
     .welcome {
       margin: auto 300px;
     }
-        
+
+    .three_company{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
     .benefit img {
       max-width: 100%;
       margin: 20px auto;
@@ -47,19 +46,11 @@
       max-width: 100%;
     }
     
-    /*--------------gallery--------------*/
-    .gallery {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .gallery figure:hover {
-      box-shadow: 12px 12px 30px rgb(27, 26, 26);
-    }
-
     /*-----------------application-----------------*/
     form {
       width: 40%;
     }
-    /*-----------------index------------------*/
+    /*-----------------business-----------------*/
     .cards {
       grid-template-columns: 1fr 1fr 1fr;
     }

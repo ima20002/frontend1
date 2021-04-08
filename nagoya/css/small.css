@@ -4,15 +4,7 @@ body {
     font-family: 'Montserrat', 'Mukta', sans-serif;
 
     }
-#message {
-    background-color:rgb(192, 124, 166);
-    text-align: center;
-    color: #222018;
-    height: 60px;
-    padding: 10px;
-    padding-bottom: 10px;
-    font-weight: bold;
-}
+
 .showme {
     display: block;
 }
@@ -53,6 +45,10 @@ header img {
     text-align: right;
     padding-right: 10px;
     font-size: 1rem;
+}
+h2, h3{
+    color: #324b4a;
+    font-family: 'Montserrat';
 }
 /*-----------------------------nav bars----------------------------*/
 nav{
@@ -106,47 +102,16 @@ nav ul li a.active {
 main {
     display: block;
 }
-/*main figure.myphoto img {
-    width: 100%;
-}*/
-
 /*----------------------------welcome----------------------------*/
 .welcome {
     margin: auto 20px;
+    color: #324b4a;
+
 }
 .welcome h3, p{
     text-align: center;
 }
 
-/*-----------------------------gallery----------------------------*/
-.gallery {
-    max-width: 90%;
-    margin: 15px auto;
-}
-
-.gallery figure {
-    box-shadow: 4px 4px 10px rgb(131,131,131);
-    border-radius: 6px;
-    background-color: #A2A7BF;
-    margin: 20px auto;
-    display: block;
-}
-
-.gallery figcaption {
-    padding: 10px;
-    margin-top: -3px;
-}
-
-.gallery img[data-src] {
-    filter: blur(0.2em);
-}
-
-.gallery img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-    border-radius: 5px 5px 0 0;
-    width: 100%;
-}
 /*----------------------------JOIN---------------------------*/
 .top_of_page {
     font-family: 'Mutka';
@@ -164,11 +129,15 @@ main {
     text-align: center;
     background-color: #DA9599;
 }
-.text_box hr {
-    text-decoration: bold;
-}
-.text_box ul li{
+.text_box p {
     font-family: 'Montserrat';
+}
+.text_box hr {
+    border: 1px solid;
+}
+.text_box ul li, p{
+    font-family: 'Montserrat';
+    color: #324b4a;
     padding: 20px;
 }
 .event_box img {
@@ -179,13 +148,14 @@ main {
 .event_box figcaption {
     padding: 10px;
     margin-top: -3px;
-}
-/*----------------------------application---------------------------*/
-.application {
-    padding: 20px auto;
     color: #324b4a;
     font-family: 'Mukta';
 }
+/*----------------------------application---------------------------*/
+.application {
+    padding: 20px;
+}
+
 form {
     width: 90%;
     margin: auto;
@@ -242,11 +212,11 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: rgb(216, 41, 123) solid 6px;
+    border-left: rgb(216, 48, 104) solid 6px;
 }
 
 form label.top input:required:valid {
-    border-left: rgb(48, 131, 110) solid 6px;
+    border-left: rgb(47, 126, 106) solid 6px;
 }
 
 form label.top textarea {
@@ -274,7 +244,6 @@ h2 {
     text-align: center;
 }
 
-
 /*-------------------------main picture-------------------------*/
 .main_pic {
     position: relative;   
@@ -287,21 +256,30 @@ h2 {
 }
 /*------------------------------Event-----------------------------------*/
 .event_weather {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+   margin: auto;
 }
 .local_event {
     background-color: #DA9599;
+    padding: 20px;
 }
 .local_event h3 {
     text-align: center;
 }
 .local_event ul li {
-    margin: 20px;
+    color: #324b4a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.local_event img {
+    display: flex;
+    margin: auto;
+    max-width: 90%;
+    box-shadow: 6px 6px 10px rgb(90, 90, 90);
 }
 /*-------------------------wetherSummary-------------------------*/
 .weaTher {
     background: #71a593;
+    padding: 20px;
 }
 .weatherSum {  
 	top: 30px;
@@ -318,54 +296,50 @@ h2 {
     margin: 3px;
     font-family: "Mukta";
 }
-
-
-/*----------------------------five days forecast----------------------------*/
-#fivedays {
-    display: none;
-}
 /*-----------------------------three company----------------------------*/
 .three_company{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    background-color: #dad4c9;
+    background-color:  #E8CDB0;
     text-align: center;
-    padding: 40px;
+    padding: 10px;
 }
-
-
-/*-----------------------------article----------------------------*/
-.article {
+.toyota {
+    background-color: #e2d8c0;
+    border-radius: 5px;
+}
+.meitetsu {
+    background-color: #e6e2dd;
+    border-radius: 5px;
+}
+.chubu {
+    background-color: #e2d8c0;
+    border-radius: 5px;
+}
+/*-----------------------------call to action----------------------------*/
+.call_to_action {
     margin: auto;
+    margin-bottom: 20px;
     padding: 20px;
-    
-}
-.article img {
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    max-width: 94%;
-    height: auto;
-    box-shadow: 6px 6px 10px rgb(66, 66, 66);
+    text-align: center;
 }
 
-.article h4, p {
-    margin: 10px;
-    margin-top: 30px;
-    font-family: "Mukta";
+.action_button {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(190, 190, 190, 0.2);
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #5D9883;
 }
-
-
 /*-----------------------------contact information----------------------------*/
 .contactInfo {
     margin: auto;
     background-color: #dad4c9;
     padding: 20px;
     max-width: 100%;
-}
-.map {
-    display: none;
 }
 .contactInfo h4 {
     text-align: center;
@@ -378,7 +352,7 @@ h2 {
     margin: 8px;
     margin-top: 20px;
 }
-/*----------------------------------index-----------------------------------------*/
+/*----------------------------------business----------------------------------------*/
 
 .cards {
     display: grid;
@@ -390,7 +364,7 @@ h2 {
 
 section {
     text-align: center;
-    max-width: 100%;
+    max-width: 95%;
     margin: 10px;
     background-color: #ffffff;
     border-radius: 8px;
@@ -400,29 +374,10 @@ section {
     max-width: 90%;
     margin: 10px;
     margin-bottom: 20px;
-    box-shadow: 6px 6px 10px rgb(66, 66, 66);
+    box-shadow: 6px 6px 10px rgb(90, 90, 90);
 }
-
-/*----------------------------------events-----------------------------------------*/
-#event_schedule {
-    margin: 40px auto;
-    background-color: #b19bbb;
-    background: radial-gradient(#d0c5d1, #aa89ad);
-    border: 3px solid #dddada;
-    padding: 20px;
-    width: 90%;
-}
-
-#event_schedule h3 {
-    text-align: center;  
-}
-#events {
-    text-align: center;
-    font-family: "Nunito";
-    margin: 5px;
-}
-#events text {
-    margin: 5px;
+.btn {
+    display: none;
 }
 /*----------------------------------contact_page-----------------------------------------*/
 ul.no-bullets {
@@ -454,6 +409,14 @@ ul.no-bullets li a {
 .history {
     padding: 20px;
     margin: auto;
+    color: #324b4a;
+}
+.hitory h3 {
+    font-family: 'Montserrat';
+
+}
+.hitory p {
+    font-family: 'Mukta';
 }
 
 .history_photo img {
@@ -466,6 +429,12 @@ ul.no-bullets li a {
     background-color: #e2d8c6;
     padding: 20px;
     margin: auto;
+    color: #324b4a;
+}
+
+.demographic_info h3 {
+    font-family: 'Montserrat';
+
 }
 
 .population table {
